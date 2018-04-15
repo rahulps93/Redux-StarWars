@@ -1,0 +1,48 @@
+.float-right
+{
+    float:right;
+}
+
+.inputsearchbox
+{
+    width: 80%;
+       padding: .375rem .75rem;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.hidden
+{
+    display:none!important;
+}
+.visible
+{
+    display:block!important;
+    
+
+}
+.planetcard
+{
+     margin-top:30px;
+}
+.ulgroup
+{
+    max-height:400px;
+    overflow-y:auto;
+    border-bottom:1px solid grey;
+    position:absolute;
+    z-index:10;
+    width:78%;
+}
+.cursor{
+    cursor: pointer;
+}
+li.cursor:hover
+{
+    background-color:grey;
+}
